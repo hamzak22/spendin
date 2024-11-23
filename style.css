@@ -78,7 +78,11 @@ nav ul li a{
         align-items: center;
         justify-content: center;
     }
-
+    .logo img{
+        width: 144px;
+        height: auto;
+    }
+    
     .logo {
         position: fixed;
         left: 60px;
