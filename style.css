@@ -97,12 +97,13 @@ nav ul li a{
 }
 
 .content {
-    padding: 0px 120px;
+    padding: 0px 3.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px ;
+    overflow-x: hidden;
 }
 
 .content h1{
@@ -133,6 +134,100 @@ nav ul li a{
 .section-image{
     margin-top: 3rem;
 }
+
+.benefit-section{
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    left: 25%;
+}
+
+.benefit-section .header-para {
+    font-size: 20px;
+    color: var(--purple-primary);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.heading-desc{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    margin-bottom: 64px;
+
+    p{
+        width: 100%;
+        max-width: 496px;
+        font-size: 20px;
+        color: #596780;
+
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 150%;
+        letter-spacing: -3%;
+    }
+}
+
+.items {
+    display: flex;
+    gap: 24px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    h3{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 16px;
+        color: #596780;
+    }
+}
+@media(max-width:1300px) {
+    .content {
+        width: 100%;
+        max-width: 1300px;
+    }
+
+    nav{
+        gap: 30px;
+        width: 100%;
+        max-width: 1300px;
+        padding: 1.5rem auto;
+    }
+
+    nav ul {
+        padding: 0;
+        width: 100%;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .buttons {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .btn-purple{
+        word-break: keep-all;
+        white-space: nowrap;
+    }
+
+}
+
+
 @media (max-width:768px) {
     nav {
         display: flex;
@@ -236,5 +331,38 @@ nav ul li a{
 
     .section-image img{
         width: 319px;
+    }
+
+    .benefit-section {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 45px;
+
+        .header-para{
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .heading-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        gap: 6px;
+
+        h1{
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-size: 14px;
+            width: 100%;
+            max-width: 314px;
+        }
+    }
+
+    .items{
+        flex-direction: column;
     }
 }
