@@ -238,6 +238,7 @@ nav ul li a{
         gap: 64px;
         position: sticky;
         top: 0;
+        margin-bottom: 100px;
     }
     .logo img{
         width: 144px;
@@ -246,7 +247,7 @@ nav ul li a{
 
     .logo {
         position: fixed;
-        left: 60px;
+        left: 20px;
     }
 
     nav ul {
