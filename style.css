@@ -236,7 +236,7 @@ nav ul li a{
         background-color: #0D121F;
         padding: 1.5rem;
         gap: 64px;
-        position: fixed;
+        position: sticky;
         top: 0;
     }
     .logo img{
