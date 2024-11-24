@@ -238,7 +238,7 @@ nav ul li a{
         gap: 64px;
         position: sticky;
         top: 0;
-        margin-bottom: 100px;
+        margin-bottom: ;
     }
     .logo img{
         width: 144px;
@@ -305,7 +305,7 @@ nav ul li a{
     .content{
         display: flex;
         padding: 0px;
-        margin-top: 100px;
+        margin-top: 20px;
     }
 
     .content h1{
